@@ -2,20 +2,6 @@
 
 A simple calculator package for demonstration purposes.
 
-## Installation
-
-```bash
-pip install my_package
-```
-
-## Usage
-```
-from my_package.calculator import Calculator
-
-calc = Calculator()
-print(calc.add(1, 2))  # Output: 3
-```
-
 ### Build the Package
 
 To build the package, run the following commands in the root directory of your project:
@@ -40,4 +26,12 @@ twine upload dist/*
 ### Install the Package
 ```
 pip install my_package
+```
+
+## Usage
+```
+from my_package.calculator import Calculator
+
+calc = Calculator()
+print(calc.add(1, 2))  # Output: 3
 ```

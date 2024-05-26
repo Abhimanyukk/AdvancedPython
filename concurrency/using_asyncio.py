@@ -9,6 +9,7 @@ async def main():
     task1 = asyncio.create_task(worker("A", 1))
     task2 = asyncio.create_task(worker("B", 1.5))
 
+    # Start both task using await
     await task1
     await task2
 
