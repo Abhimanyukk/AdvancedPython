@@ -16,6 +16,7 @@ thread2.start()
 
 # Wait for threads to complete
 thread1.join()
+# print ("Thread 1 completed")
 thread2.join()
 
 print("All threads completed")
